@@ -1,0 +1,160 @@
+{
+  "categories": [
+    {
+      "name": "Breakfast & Brunch",
+      "items": [
+        {
+          "name": "Mediterranean Breakfast",
+          "description": "Two eggs any style, feta cheese, olives, tomatoes, cucumber, and fresh bread",
+          "price": "$14.95"
+        },
+        {
+          "name": "French Toast",
+          "description": "Brioche bread with vanilla, cinnamon, and maple syrup",
+          "price": "$12.95"
+        },
+        {
+          "name": "Greek Omelet",
+          "description": "Spinach, feta cheese, tomatoes, and fresh herbs",
+          "price": "$13.95"
+        },
+        {
+          "name": "Avocado Toast",
+          "description": "Sourdough bread, smashed avocado, cherry tomatoes, and microgreens",
+          "price": "$11.95"
+        },
+        {
+          "name": "Belgian Waffle",
+          "description": "Classic Belgian waffle with fresh berries and whipped cream",
+          "price": "$10.95"
+        }
+      ]
+    },
+    {
+      "name": "Lunch",
+      "items": [
+        {
+          "name": "Greek Salad",
+          "description": "Fresh mixed greens, tomatoes, cucumbers, red onions, olives, feta cheese, and house dressing",
+          "price": "$13.95"
+        },
+        {
+          "name": "Mediterranean Wrap",
+          "description": "Grilled chicken, hummus, vegetables, and tzatziki in a warm pita",
+          "price": "$12.95"
+        },
+        {
+          "name": "Quiche Lorraine",
+          "description": "Classic French quiche with bacon, gruyère cheese, and herbs",
+          "price": "$14.95"
+        },
+        {
+          "name": "Caprese Panini",
+          "description": "Fresh mozzarella, tomatoes, basil, and balsamic glaze on ciabatta",
+          "price": "$11.95"
+        },
+        {
+          "name": "Lamb Gyro",
+          "description": "Tender lamb, tzatziki, tomatoes, onions, and fries",
+          "price": "$15.95"
+        },
+        {
+          "name": "Falafel Bowl",
+          "description": "Crispy falafel, hummus, tabbouleh, pickled vegetables, and tahini",
+          "price": "$13.95"
+        }
+      ]
+    },
+    {
+      "name": "Coffee & Espresso",
+      "items": [
+        {
+          "name": "Espresso",
+          "description": "Single or double shot",
+          "price": "$2.95 / $3.95"
+        },
+        {
+          "name": "Cappuccino",
+          "description": "Espresso with steamed milk and foam",
+          "price": "$4.95"
+        },
+        {
+          "name": "Latte",
+          "description": "Espresso with steamed milk",
+          "price": "$5.25"
+        },
+        {
+          "name": "Americano",
+          "description": "Espresso with hot water",
+          "price": "$3.95"
+        },
+        {
+          "name": "Mocha",
+          "description": "Espresso, chocolate, and steamed milk",
+          "price": "$5.75"
+        },
+        {
+          "name": "Cold Brew",
+          "description": "Smooth, cold-brewed coffee",
+          "price": "$4.95"
+        }
+      ]
+    },
+    {
+      "name": "Tea & Specialty Drinks",
+      "items": [
+        {
+          "name": "Mediterranean Mint Tea",
+          "description": "Fresh mint leaves with green tea",
+          "price": "$4.25"
+        },
+        {
+          "name": "Chai Latte",
+          "description": "Spiced chai with steamed milk",
+          "price": "$5.25"
+        },
+        {
+          "name": "Hot Chocolate",
+          "description": "Rich European-style hot chocolate",
+          "price": "$4.95"
+        },
+        {
+          "name": "Fresh Lemonade",
+          "description": "House-made with fresh lemons",
+          "price": "$4.25"
+        }
+      ]
+    },
+    {
+      "name": "Pastries & Desserts",
+      "items": [
+        {
+          "name": "Baklava",
+          "description": "Traditional Greek pastry with honey and nuts",
+          "price": "$5.95"
+        },
+        {
+          "name": "Croissant",
+          "description": "Buttery French croissant",
+          "price": "$3.95"
+        },
+        {
+          "name": "Chocolate Éclair",
+          "description": "Classic French pastry",
+          "price": "$4.95"
+        },
+        {
+          "name": "Tiramisu",
+          "description": "Italian coffee-flavored dessert",
+          "price": "$6.95"
+        },
+        {
+          "name": "Cannoli",
+          "description": "Crispy shell filled with sweet ricotta",
+          "price": "$5.95"
+        }
+      ]
+    }
+  ]
+}
+
