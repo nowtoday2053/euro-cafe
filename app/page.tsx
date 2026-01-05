@@ -15,7 +15,7 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden pt-20">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1920&q=80"
+            src="/images/indoor.jpg"
             alt="Euro Café interior"
             fill
             className="object-cover"
@@ -70,8 +70,8 @@ export default function Home() {
             </div>
             <div className="relative h-96 md:h-[500px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80"
-                alt="Fresh Mediterranean food"
+                src="/images/p1.jpg"
+                alt="Euro Café outdoor patio"
                 fill
                 className="object-cover"
               />

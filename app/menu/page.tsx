@@ -8,6 +8,7 @@ const menuPdfs = [
   { name: 'Menu 3', file: '/menus/menu3.pdf' },
   { name: 'Menu 4', file: '/menus/menu4.pdf' },
   { name: 'Menu 5', file: '/menus/menu5.pdf' },
+  { name: 'Menu 6', file: '/images/p1.jpg', isImage: true },
 ]
 
 export default function Menu() {
@@ -56,12 +57,24 @@ export default function Menu() {
                   </h3>
                 </div>
                 <div className="w-full bg-gray-50">
-                  <iframe
-                    src={`${menu.file}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
-                    className="w-full"
-                    style={{ height: '1200px', minHeight: '800px' }}
-                    title={`${menu.name} - Euro Café`}
-                  ></iframe>
+                  {menu.isImage ? (
+                    <div className="w-full relative" style={{ minHeight: '800px' }}>
+                      <Image
+                        src={menu.file}
+                        alt={`${menu.name} - Euro Café`}
+                        fill
+                        className="object-contain"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px"
+                      />
+                    </div>
+                  ) : (
+                    <iframe
+                      src={`${menu.file}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
+                      className="w-full"
+                      style={{ height: '1200px', minHeight: '800px' }}
+                      title={`${menu.name} - Euro Café`}
+                    ></iframe>
+                  )}
                 </div>
               </div>
             ))}
