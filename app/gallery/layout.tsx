@@ -13,3 +13,5 @@ export default function GalleryLayout({
   return <>{children}</>
 }
 
+
+

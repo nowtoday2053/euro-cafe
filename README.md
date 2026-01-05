@@ -56,3 +56,5 @@ Edit `/data/menu.json` to update menu items. The structure is organized by categ
 
 This project is ready to deploy on Vercel, Netlify, or any platform that supports Next.js.
 
+
+

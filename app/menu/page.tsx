@@ -1,7 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import { FiDownload } from 'react-icons/fi'
 
 const menuPdfs = [
   { name: 'Menu 1', file: '/menus/menu1.pdf' },
@@ -44,7 +43,7 @@ export default function Menu() {
               Our Menus
             </h2>
             <p className="text-lg text-warm-gray max-w-2xl mx-auto">
-              Browse our complete menus below. Scroll through each menu to see all our offerings.
+              Browse our complete menus below. Each section showcases our delicious offerings.
             </p>
           </div>
 
@@ -52,25 +51,15 @@ export default function Menu() {
             {menuPdfs.map((menu, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="p-6 border-b border-gray-200 bg-cream">
-                  <div className="flex items-center justify-between flex-wrap gap-4">
-                    <h3 className="text-2xl md:text-3xl font-serif font-bold text-earth">
-                      {menu.name}
-                    </h3>
-                    <a
-                      href={menu.file}
-                      download
-                      className="btn-secondary text-sm py-2 px-4 flex items-center gap-2"
-                    >
-                      <FiDownload className="h-4 w-4" />
-                      Download PDF
-                    </a>
-                  </div>
+                  <h3 className="text-2xl md:text-3xl font-serif font-bold text-earth text-center">
+                    {menu.name}
+                  </h3>
                 </div>
-                <div className="w-full">
+                <div className="w-full bg-gray-50">
                   <iframe
-                    src={`${menu.file}#toolbar=0&navpanes=0&scrollbar=0`}
+                    src={`${menu.file}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
                     className="w-full"
-                    style={{ height: '800px', minHeight: '600px' }}
+                    style={{ height: '1200px', minHeight: '800px' }}
                     title={`${menu.name} - Euro Café`}
                   ></iframe>
                 </div>

@@ -98,12 +98,12 @@ export default function Home() {
               {
                 title: 'Breakfast & Brunch',
                 description: 'Start your day with our European-inspired breakfasts and fresh pastries.',
-                image: 'https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&q=80',
+                image: '/images/food.jpg',
               },
               {
                 title: 'Mediterranean Lunch',
                 description: 'Authentic flavors from Greece, Italy, and the Mediterranean region.',
-                image: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&q=80',
+                image: '/images/pizza.jpg',
               },
               {
                 title: 'Coffee & Pastries',

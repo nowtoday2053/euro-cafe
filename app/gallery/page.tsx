@@ -12,6 +12,10 @@ const galleryImages = {
     { src: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80', alt: 'Restaurant ambiance' },
   ],
   food: [
+    { src: '/images/p2.jpg', alt: 'Euro Café food' },
+    { src: '/images/image3.jpg', alt: 'Euro Café dishes' },
+    { src: '/images/pizza.jpg', alt: 'Euro Café pizza' },
+    { src: '/images/food.jpg', alt: 'Euro Café cuisine' },
     { src: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80', alt: 'Mediterranean salad' },
     { src: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80', alt: 'Fresh food' },
     { src: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80', alt: 'Breakfast spread' },
