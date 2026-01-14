@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { FiMenu, FiX } from 'react-icons/fi'
 
@@ -35,10 +36,16 @@ export default function Header() {
       <nav className="container-custom">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <span className="text-2xl md:text-3xl font-serif font-bold text-terracotta">
-              Euro Café
-            </span>
+          <Link href="/" className="flex items-center">
+            <div className="relative h-12 md:h-14 w-40 md:w-56 overflow-hidden">
+              <Image
+                src="/logo2.png"
+                alt="Euro Café Logo"
+                fill
+                className="object-contain origin-left scale-125 md:scale-150"
+                priority
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -98,6 +105,7 @@ export default function Header() {
     </header>
   )
 }
+
 
 
 

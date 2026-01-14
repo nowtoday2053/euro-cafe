@@ -116,8 +116,8 @@ export default function Contact() {
                       Hours
                     </h3>
                     <div className="text-lg text-warm-gray space-y-1">
-                      <p><strong>Monday - Saturday:</strong> 7:00 AM - 3:00 PM</p>
-                      <p><strong>Sunday:</strong> 8:00 AM - 2:00 PM</p>
+                      <p><strong>Open:</strong> 7:30 AM - 9:00 PM</p>
+                      <p><strong>Closed:</strong> Tuesday</p>
                     </div>
                   </div>
                 </div>

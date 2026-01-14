@@ -25,6 +25,9 @@ export default function Home() {
         </div>
         
         <div className="relative z-10 container-custom text-center text-white">
+          <div className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-white/15 backdrop-blur-sm border border-white/25 text-white font-semibold tracking-wide mb-6">
+            Good Food. Healthy Choices.
+          </div>
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 text-balance">
             Welcome to Euro Café
           </h1>
@@ -173,8 +176,8 @@ export default function Home() {
                 <h3 className="text-3xl font-serif font-bold text-earth">Hours</h3>
               </div>
               <div className="space-y-2 text-lg text-warm-gray">
-                <p><strong>Monday - Saturday:</strong> 7:00 AM - 3:00 PM</p>
-                <p><strong>Sunday:</strong> 8:00 AM - 2:00 PM</p>
+                <p><strong>Open:</strong> 7:30 AM - 9:00 PM</p>
+                <p><strong>Closed:</strong> Tuesday</p>
               </div>
             </div>
           </div>

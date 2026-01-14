@@ -81,8 +81,8 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <FiClock className="h-5 w-5 mt-0.5 flex-shrink-0" />
                 <div className="text-cream/90">
-                  <p>Mon-Sat: 7:00 AM - 3:00 PM</p>
-                  <p>Sunday: 8:00 AM - 2:00 PM</p>
+                  <p>Open: 7:30 AM - 9:00 PM</p>
+                  <p>Closed: Tuesday</p>
                 </div>
               </li>
             </ul>
